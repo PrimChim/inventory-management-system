@@ -1,0 +1,107 @@
+*{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Background{
+    height: 702px;
+    width: 1360px;
+    background-blend-mode: multiply;
+    filter: blur(10px);
+}
+#Container{
+    background-color:rgba(255, 255, 255, 0.35);;
+    width: 600px;
+    height: 620px;
+    top: 55px;
+    left: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+#Container h2{
+    font-size: 35px;
+    top: 70px;
+    left: 90px;
+    color: #023246;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+form label{
+    position: relative;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+    margin-top: 40px;
+    top: 160px;
+    font-size: 25px;
+    color: #023246;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+form input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 300px;
+    top: 160px;
+    left: 285px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background: #FDFDFD;
+    font-size: 16px;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px #023246;
+}
+form select{
+    top: 500px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    left: 285px;
+    font-size: 16;
+    color: grey;
+    border: 1px solid #000000;
+box-shadow: 0px 4px 4px #023246;
+}
+a .button{
+    top: 30px;
+    left: 520px;
+    color: #1E4175;
+    letter-spacing: 0.05em;
+}
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+form button{
+    position: absolute;
+    background: #023246;
+    color: #FDFDFD;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 22px;
+    top: 550px ;
+    left: 450px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #023246;
+}
+form button:hover{
+    color: #000000;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.button .Sign{
+    left: 520px;
+    top: 10px;
+}
+.button img{
+    width: 50px;
+    border-radius: 20px;
+}
+.button img:hover{
+    transition: 0.5s;
+    background-color: aqua;
+}

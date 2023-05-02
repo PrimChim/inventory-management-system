@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{% static 'css/Sign.css'%}">
+    <link rel="shortcut icon" href="{% static 'Image/sign_weblogo.png'%}" type="image/x-icon">
+</head>
+</head>
+
+<body>
+    <img id="Background" src="{% static 'Image/Loginbackground.png'%}" alt="Background">
+
+    <h1>Sign Up</h1>
+    <img id="PNG" src="{% static 'Image/Signup.png'%}" alt="JPG">
+    <div id="Container">
+        <h2>Hello, Welcome Back</h2>
+        <h4>If you have already Signed Up, <a href="{% url 'login'%}">Log in</a></h4>
+        <form method="post" action="{% url 'signup'%}">
+            {% if error_message %}
+            <p style="color:red">{{ error_message }}</p>
+            {% endif %}
+            {% csrf_token %}
+            <div class="Label">
+                <label>Full Name</label>
+                <label>Email ID</label>
+                <label>Password</label>
+                <label>Re-enter Password</label>
+            </div>
+            <input type="text" placeholder="" name="fullname">
+            <input type="email" placeholder="" name="email">
+            <input type="password" placeholder="" name="password">
+            <input type="password" placeholder="" name="cpassword">
+
+            <button class="Sign" type="submit">Sign up</button>
+
+        </form>
+        <a href="{% url 'home'%}">
+            <div class="button"><img src="{% static 'Image/arrowleft.png'%}"></div>
+        </a>
+    </div>
+
+</body>
+
+</html>

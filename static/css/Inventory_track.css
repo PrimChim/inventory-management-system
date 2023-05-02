@@ -1,0 +1,300 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aksara Bali Galang", sans-serif;
+}
+
+#Container {
+    width: 246px;
+    height: 695px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+}
+
+#Headline {
+    width: 1190x;
+    margin-left: 250px;
+    margin-top: -700px;
+    height: 100px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+}
+
+h2 {
+    position: absolute;
+    top: -5px;
+    left: 262px;
+    color: white;
+    width: 526px;
+    font-size: 36px;
+    font-family: "Aksara Bali Galang", sans-serif;
+    font-weight: 700;
+}
+
+#Headline input {
+    position: absolute;
+    top: 33px;
+    left: 903px;
+    width: 300px;
+    height: 26px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    box-shadow: 8px 1px 4px #000000;
+}
+
+#Headline input:hover {
+    transition: 0.25s;
+    background-color: white;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+        0 0 25px pink, 0 0 50px blueviolet,
+        0 0 100px pink, 0 0 200px blueviolet;
+}
+
+#Headline #Profile {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 1239px;
+    top: 30px;
+}
+
+#Headline #Profile:hover {
+    transition: 0.25s;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+}
+
+#Headline #Logout {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    left: 1294px;
+    top: 29px;
+}
+
+#Headline #Logout:hover {
+    transition: 0.25s;
+    background-color: darkred;
+    border-radius: 23% 15%;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+}
+
+img {
+    position: absolute;
+    width: 161px;
+    height: 145px;
+    left: 33px;
+    top: 13px;
+
+
+}
+
+#img1 {
+    width: 50;
+    height: 50;
+}
+
+#Menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 253px;
+}
+
+button {
+    align-items: flex-end;
+    height: 50px;
+    width: 240px;
+    margin-top: 5px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transition: 0.25s;
+    border-radius: none;
+    color: #000000;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+
+}
+
+button #img1 {
+    position: absolute;
+    top: 17px;
+    left: 13px;
+    height: 25px;
+    width: 25px;
+}
+
+button #img2 {
+    position: absolute;
+    top: 74px;
+    left: 4px;
+    height: 27px;
+    width: 27px;
+}
+
+button #img3 {
+    position: absolute;
+    top: 127px;
+    left: 4px;
+    height: 27px;
+    width: 27px;
+}
+
+button #img4 {
+    position: absolute;
+    top: 182px;
+    left: 4px;
+    height: 26px;
+    width: 26px;
+}
+
+button #img5 {
+    position: absolute;
+    top: 238px;
+    left: 2px;
+    height: 26px;
+    width: 26px;
+}
+
+button #img6 {
+    position: absolute;
+    top: 292px;
+    left: 4px;
+    height: 28px;
+    width: 28px;
+}
+
+#Main h1 {
+    position: absolute;
+    top: 79px;
+    left: 259px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#Main button {
+    position: absolute;
+    height: 32px;
+    width: 85px;
+    top: 98px;
+    left: 1242px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10%;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+#Main button:hover {
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+        0 0 25px pink, 0 0 50px blueviolet,
+        0 0 100px pink, 0 0 200px blueviolet;
+}
+
+button #Add {
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    top: 5px;
+}
+
+#Main table {
+    background-color: #ffffff;
+    color: white;
+    position: absolute;
+    left: 259px;
+    top: 144px;
+    height: 20px;
+    width: 1090px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+td,
+th {
+    background-color: #023246;
+    justify-content: center;
+}
+
+#Popup {
+    position: absolute;
+    left: 460px;
+    top: 200px;
+    width: 676px;
+    height: 400px;
+    background-color: #FCFCFC;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10% 25%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+
+}
+
+.open-popup {
+    visibility: visible;
+    position: absolute;
+    left: 460px;
+    top: 200px;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#Popup form h1 {
+    position: absolute;
+    left: 35px;
+    top: 2px;
+}
+
+#Popup form label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35px;
+    top: 90px;
+    margin-top: 46px;
+    font-size: 25px;
+}
+
+#Popup form input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 260px;
+    top: -55px;
+    margin-top: 38px;
+    font-size: 25px;
+}

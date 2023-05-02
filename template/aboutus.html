@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'css/aboutus.css'%}">
+</head>
+
+<body>
+    <div id="Main">
+        <img id="Background" src="{% static 'Image/Aboutus.png'%}" alt="Background">
+        <div id="Rectangle"></div>
+    </div>
+    <section id="Heading">
+        <img id="Logo" src="{% static 'Image/imslogowhite.png'%}" alt="Logo">
+        <nav>
+            <a href="{% url 'home'%}" style="text-decoration: none; ">Home</a>
+            <a href="{% url 'aboutus'%}" style="text-decoration: none; ">About Us</a>
+            <a href="#" style="text-decoration: none; ">Contact Us</a>
+            <a href="{% url 'signup'%}" style="text-decoration: none; ">Sign Up</a>
+            <a href="{% url 'login'%}" style="text-decoration: none; ">Log In</a>
+        </nav>
+    </section>
+    <section id="Main">
+        <div id="Box1">
+            <h2>About us</h2>
+            <p>The Inventory Management System is a software application for the Windows platform. It allows businesses
+                to manage their inventory levels, track inventory movements, and automate inventory tasks such as
+                auto-reordering of products. The demand for inventory trackers in the business sector, is crucial in the
+                current situation. The intention of the system is to simplify processes, boost efficiency, and minimize
+                expenses. The application stores detailed information about the products, and their quantity including
+                the sales.</p>
+        </div>
+        <div id="Box2">
+            <h1>TEAM MEMBER</h1>
+            <section id="Name">
+                <h3 id="Pritam">Project manager</h3>
+                <h3 id="Pritamname">Mr. Pritam Gurung</h3>
+                <h3 id="Sameer">Business Analyst</h3>
+                <h3 id="Sameername">Mr. Sameer Shrestha</h3>
+                <h3 id="Dev1">Developer</h3>
+                <h3 id="Dev1name">Mr. Prashanna Lohani</h3>
+                <h3 id="Dev2">Developer</h3>
+                <h3 id="Dev2name">Mr. Niraj Gurung</h3>
+                <h3 id="Dev3">Developer</h3>
+                <h3 id="Dev3name">Mr. Saugat Chaulagain</h3>
+
+            </section>
+        </div>
+    </section>
+
+</body>
+
+</html>

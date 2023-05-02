@@ -1,0 +1,77 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Tracking</title>
+    <link rel="stylesheet" href="{% static 'css/Inventory_track.css'%}">
+    <link rel="shortcut icon" href="{% static 'Image/shieldsearch.png'%}" type="image/x-icon">
+    <script src="{% static 'script/inventory.js'%}" type="application/javascript"></script>
+
+</head>
+
+<body>
+    <section id="Container">
+        <img src="{% static 'Image/imslogowhite.png'%}" alt="Logo">
+        <nav id="Menu">
+            <a href="{% url 'dashboard'%}">
+                <button><img id="img1" src="{% static 'Image/Vector.png'%}">Dashboard</button></a>
+            <a href="{% url 'inventorytrack'%}">
+                <button><img id="img2" src="{% static 'Image/shieldsearch.png'%}">Inventory Tracking</button>
+            </a>
+            <button><img id="img3" src="{% static 'Image/emptywalletchange.png'%}">Order Processing</button>
+            <button><img id="img4" src="{% static 'Image/documenttext.png'%}">Report & Analysis</button>
+            <button><img id="img5" src="{% static 'Image/UAC.png'%}">User Access Control</button>
+            <button><img id="img6" src="{% static 'Image/trucktime.png'%}">Auto Reordering</button>
+        </nav>
+    </section>
+
+    <section id="Headline">
+        <h2>Inventory Management System</h2>
+        <input type="text" placeholder="Search">
+        <a href="#"><img id="Profile" src="{% static 'Image/profile.png'%}"></a>
+        <a href="{% url 'home'%}"><img id="Logout" src="{% static 'Image/Iconsax/Linear/Logout.png'%}"></a>
+    </section>
+    <section id="Main">
+        <h1>Inventory Tracking</h1>
+        <button onclick="openPopup()"><img id="Add" src="{% static 'Image/addsquare.png'%}">Add</button>
+        <table id="producttable">
+            <tr>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Location</th>
+                <th>Reorder Point</th>
+                <th>Data Recieved</th>
+                <th>Cost</th>
+                <th>Expirarion Date</th>
+                <th>Brand</th>
+                <th>Add/Delete</th>
+            </tr>
+
+        </table>
+
+    </section>
+    <section id="Popup">
+        <form>
+            <h1>Suppliers Information</h1>
+            <label>Brand Name:</label>
+            <label>Email Id:</label>
+            <input type="text" placeholder="">
+            <input type="email" placeholder="">
+        </form>
+    </section>
+
+    <script>
+        let Popup = document.getElementById("Popup")
+
+        function openPopup() {
+            Popup.classList.add(".open-popup")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+*{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Background{
+    height: 702px;
+    width: 1360px;
+    background-blend-mode: multiply;
+    filter: blur(10px);
+}
+#PNG {
+    display: flex;
+    left: 80px;
+    top: 150px;
+    height: 500px;
+}
+#Container{
+    background-color:rgba(255, 255, 255, 0.35);;
+    width: 600px;
+    height: 600px;
+    top: 65px;
+    left: 700px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+#Container h2{
+    font-size: 45px;
+    top: 40px;
+    left: 30px;
+    color: #023246;
+    letter-spacing: 0.2em;
+}
+#Container h4{
+    font-size: 20px;
+    left: 35px;
+    top: 130px;
+    width: 500px;
+    letter-spacing: 0.1em;
+}
+form label{
+    position: relative;
+    display: flex;
+    width: 380px;
+    flex-direction: column;
+    left: 20px;
+    margin-top: 55px;
+    top: 120px;
+    font-size: 25px;
+    color: #023246;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+form input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -200px;
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 56px;
+    border-radius: 5px;
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+}
+form button{
+    background: #023246;
+    color: #FDFDFD;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 22px;
+    top: 545px ;
+    left: 440px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #023246;
+}
+form button:hover{
+    color: #000000;
+    background-color: aqua;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.button{
+    left: 520px;
+    top: 10px;
+}
+.button img{
+    width: 50px;
+    border-radius: 20px;
+}
+.button img:hover{
+    transition: 0.5s;
+    background-color: aqua;
+}
