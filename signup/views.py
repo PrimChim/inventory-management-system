@@ -108,14 +108,20 @@ def change_password(request):
     return render(request, 'Changepass.html')
 
 
+def verify_otp(request):
+    pass
+
+
 def forget_password(request):
     if request.method == 'POST':
         email = request.POST.get('email')
+        print(email)
         try:
             user = User.objects.get(email=email)
+            print("two step")
         except User.DoesNotExist:
-            messages.error(request, 'This email is not registered.')
-            return render(request, 'forget_password.html')
+            print("step three")
+            return render(request, 'forget_password.html', {"error_message": 'This email is not registered.'})
 
         # Generate and send OTP to user's email
         otp = str(random.randint(100000, 999999))
@@ -123,8 +129,8 @@ def forget_password(request):
         # send_mail('Password reset OTP', message,
         #           'your_email@example.com', [email], fail_silently=True)
 
-        print(otp)
-
+        print("otp is: ", otp)
+        print("user is : ", user)
         # Store the OTP in session and redirect to OTP verification page
         request.session['otp'] = otp
         request.session['user_id'] = user.id
