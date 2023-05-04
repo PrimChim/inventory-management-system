@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.hashers import check_password
 from rest_framework import generics
@@ -14,14 +14,27 @@ from django.utils.decorators import method_decorator
 def loginaction(request):
     context = {}
     if request.method == 'POST':
-        username = request.POST.get('email')
+        username_or_email = request.POST.get('email')
         password = request.POST.get('password')
-        print(username, password)
-        user = authenticate(request, username=username, password=password)
+        # Check if username_or_email contains '@' character
+        if '@' in username_or_email:
+            # If it does, assume it's an email address and try to get user by email
+            try:
+                user = User.objects.get(email=username_or_email)
+                username = user.username
+                user = authenticate(
+                    request, username=username, password=password)
+            except User.DoesNotExist:
+                user = None
+        else:
+            # Otherwise, assume it's a username and try to get user by username
+            user = authenticate(
+                request, username=username_or_email, password=password)
+
         if user is not None:
             # The password entered by the user is correct
             login(request, user)
-            return render(request, 'Dash.html')
+            return redirect('dashboard')
         else:
             # The password entered by the user is incorrect
             error_message = "Incorrect username or password."

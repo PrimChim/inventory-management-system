@@ -1,14 +1,13 @@
 import random
 from django.shortcuts import render, redirect
-from django.contrib import messages
 from django.contrib.auth.password_validation import validate_password
 from django.contrib.auth.hashers import make_password
 from django.core.exceptions import ValidationError
-from django.shortcuts import render
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth import update_session_auth_hash
+from django.core.mail import send_mail
 
 # Create your views here.
 
@@ -125,9 +124,9 @@ def forget_password(request):
 
         # Generate and send OTP to user's email
         otp = str(random.randint(100000, 999999))
-        # message = f'Your OTP for password reset is {otp}. Do not share it with anyone.'
-        # send_mail('Password reset OTP', message,
-        #           'your_email@example.com', [email], fail_silently=True)
+        message = f'Your OTP for password reset is {otp}. Do not share it with anyone.'
+        send_mail('Password reset OTP', message,
+                  'gpritam922@example.com', [email], fail_silently=True)
 
         print("otp is: ", otp)
         print("user is : ", user)

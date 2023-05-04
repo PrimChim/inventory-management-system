@@ -4,6 +4,9 @@ from django.contrib.auth.models import User
 
 
 class ProductSerializer(serializers.ModelSerializer):
+
+    created_at = serializers.DateTimeField(format="%Y-%m-%d")
+
     class Meta:
         model = Product
         fields = ['id', 'name', 'price', 'quantity',
