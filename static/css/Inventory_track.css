@@ -1,27 +1,24 @@
-body {
+body{
     background-color: white;
     margin: 0px;
     padding: 0px;
     font-family: "Aksara Bali Galang", sans-serif;
 }
-
-#Container {
-    width: 246px;
-    height: 695px;
+ #Container{
+    width:246px;
+    height:695px;
     background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
 }
-
-#Headline {
+#Headline{
     width: 1190x;
     margin-left: 250px;
     margin-top: -700px;
     height: 100px;
     background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
-}
-
-h2 {
+} 
+h2{
     position: absolute;
     top: -5px;
     left: 262px;
@@ -31,8 +28,7 @@ h2 {
     font-family: "Aksara Bali Galang", sans-serif;
     font-weight: 700;
 }
-
-#Headline input {
+#Headline input{
     position: absolute;
     top: 33px;
     left: 903px;
@@ -40,53 +36,48 @@ h2 {
     height: 26px;
     border-radius: 30px;
     border-color: aliceblue;
-    box-shadow: 8px 1px 4px #000000;
+    box-shadow: 8px 1px 4px #000000 ;
 }
-
-#Headline input:hover {
+#Headline input:hover{
     transition: 0.25s;
     background-color: white;
     border-radius: 90px;
     border-color: aqua;
     box-shadow: 0 0 5px blueviolet,
-        0 0 25px pink, 0 0 50px blueviolet,
-        0 0 100px pink, 0 0 200px blueviolet;
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
 }
-
-#Headline #Profile {
+#Headline #Profile{
     position: absolute;
     height: 35px;
     width: 35px;
     left: 1239px;
-    top: 30px;
+    top: 30px ;
 }
-
-#Headline #Profile:hover {
+#Headline #Profile:hover{
     transition: 0.25s;
     background-color: aqua;
     border-radius: 90px;
     border-color: aqua;
     box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan;
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
-
-#Headline #Logout {
+#Headline #Logout{
     position: absolute;
     height: 33px;
     width: 33px;
     left: 1294px;
-    top: 29px;
+    top: 29px ;
 }
-
-#Headline #Logout:hover {
+#Headline #Logout:hover{
     transition: 0.25s;
     background-color: darkred;
     border-radius: 23% 15%;
     border-color: aqua;
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px red,
+    0 0 25px red, 0 0 50px red,
+    0 0 100px red, 0 0 200px red;
 }
 
 img {
@@ -95,109 +86,99 @@ img {
     height: 145px;
     left: 33px;
     top: 13px;
-
+    
 
 }
-
-#img1 {
+#img1{
     width: 50;
     height: 50;
 }
-
-#Menu {
+#Menu{
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 253px;
 }
-
-button {
+button{
     align-items: flex-end;
     height: 50px;
-    width: 240px;
-    margin-top: 5px;
+    width: 246px;
+    margin-top: 2px;
+    border-color: transparent;
     background-color: #023246;
-    box-shadow: 5px 1px 4px #000000;
-    border-radius: none;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.1em;
     font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    border-bottom: #000000;
 
 }
-
-button:hover {
+button:hover{
     transition: 0.25s;
     border-radius: none;
     color: #000000;
     background-color: aqua;
     border-color: aqua;
     box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan;
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 
 }
-
-button #img1 {
+button #img1{
     position: absolute;
     top: 17px;
-    left: 13px;
+    left: 10px;
     height: 25px;
     width: 25px;
 }
-
-button #img2 {
+button #img2{
+    align-items: end;
     position: absolute;
-    top: 74px;
-    left: 4px;
+    top: 68px;
+    left: 9px;
     height: 27px;
     width: 27px;
 }
-
-button #img3 {
+button #img3{
     position: absolute;
-    top: 127px;
-    left: 4px;
+    top: 119px;
+    left: 10px;
     height: 27px;
     width: 27px;
 }
-
-button #img4 {
+button #img4{
     position: absolute;
-    top: 182px;
-    left: 4px;
+    top: 170px;
+    left: 9px;
     height: 26px;
     width: 26px;
 }
-
-button #img5 {
+button #img5{
     position: absolute;
-    top: 238px;
-    left: 2px;
+    top: 223px;
+    left: 5px;
     height: 26px;
     width: 26px;
 }
-
-button #img6 {
+button #img6{
     position: absolute;
-    top: 292px;
-    left: 4px;
+    top: 275px;
+    left: 9px;
     height: 28px;
     width: 28px;
 }
-
-#Main h1 {
+#Main h1{
     position: absolute;
     top: 79px;
     left: 259px;
-    font-size: 30px;
+    font-size: 30px ;
     font-weight: 700;
 
 }
-
-#Main button {
+#Main button{
     position: absolute;
     height: 32px;
     width: 85px;
@@ -210,91 +191,298 @@ button #img6 {
     font-weight: 700;
     letter-spacing: 0.1em;
     font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
 
 }
-
-#Main button:hover {
+#Main button:hover{
     transition: 0.25s;
     color: #000000;
     background-color: aqua;
     border-radius: 90px;
     border-color: aqua;
     box-shadow: 0 0 5px blueviolet,
-        0 0 25px pink, 0 0 50px blueviolet,
-        0 0 100px pink, 0 0 200px blueviolet;
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
 }
-
-button #Add {
+button #Add{
     height: 20px;
     width: 20px;
     left: 2px;
     top: 5px;
 }
-
-#Main table {
-    background-color: #ffffff;
+#Main table{
+    background-color:#023246;
     color: white;
     position: absolute;
     left: 259px;
     top: 144px;
-    height: 20px;
+    height: 20pxs;
     width: 1090px;
     letter-spacing: 0.1em;
     font-size: 14px;
-}
 
-td,
-th {
-    background-color: #023246;
-    justify-content: center;
 }
-
-#Popup {
+#Main #Popup{
+    width: 25%;
+    height: 50%;
     position: absolute;
-    left: 460px;
-    top: 200px;
-    width: 676px;
-    height: 400px;
-    background-color: #FCFCFC;
-    box-shadow: 5px 1px 4px #000000;
-    border-radius: 10% 25%;
-    transform: translate(-50%, -50%) scale(0.1);
-    visibility: hidden;
-
-}
-
-.open-popup {
-    visibility: visible;
+    left: 50%;
+    top:30%;
+    background: #CCDDE2;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+form #PN{
     position: absolute;
-    left: 460px;
-    top: 200px;
-    transform: translate(-50%, -50%) scale(1);
-}
+    top: 7%;
+    left: 5%;
 
-#Popup form h1 {
-    position: absolute;
-    left: 35px;
-    top: 2px;
-}
-
-#Popup form label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 35px;
-    top: 90px;
-    margin-top: 46px;
-    font-size: 25px;
-}
+    align-items: center;
+    letter-spacing: 0.1em;
 
-#Popup form input {
+}
+form #pn{
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    width: 65%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+#Popup form h1{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 260px;
-    top: -55px;
-    margin-top: 38px;
-    font-size: 25px;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 10%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    display: none;
+  }
+form #BN{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+form #bn{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 65%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+form #Next{
+    position: absolute;
+    top: 87%;
+    left:75%;
+    width: 20%;
+    height: 8%;
+}
+#Main #Popup2{
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    background: #CCDDE2;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#Popup2 #Location{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+#lo{
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    width: 65%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+#Popup2 #cost{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+#co{
+    position: absolute;
+    top: 31%;
+    left: 5%;
+    width: 65%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+#Popup2 #Quantity{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+.popup2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 10%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    display: none;
+  }
+  .popup2.show {
+    display: block;
+ }
+#qu{
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    width: 30%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+#Rp{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em; 
+}
+#rp{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    width: 45%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+#ED{
+    position: absolute;
+    top: 63%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em; 
+}
+#ed{
+    position: absolute;
+    top: 69%;
+    left: 5%;
+    width: 60%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+#DR{
+    position: absolute;
+    top: 82%;
+    left: 5%;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em; 
+}
+#dr{
+    position: absolute;
+    top: 88%;
+    left: 5%;
+    width: 60%;
+    height: 8%;
+
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+    border-radius: 5px;
+}
+form #Done{
+    position: absolute;
+    top: 90%;
+    left:79%;
+    width: 20%;
+    height: 8%;
 }

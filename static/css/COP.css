@@ -1,5 +1,5 @@
 body{
-    background-color: #A8A8A8;
+    background-color: #EBEBEB;
     margin: 0px;
     padding: 0px;
     font-family: "Aksara Bali Galang", sans-serif;
@@ -11,7 +11,7 @@ body{
     box-shadow: 5px 1px 4px #000000;
 }
 #Headline{
-    width: 100%;
+    width: 1190x;
     margin-left: 250px;
     margin-top: -700px;
     height: 100px;
@@ -78,7 +78,7 @@ h2{
     box-shadow: 0 0 5px red,
     0 0 25px red, 0 0 50px red,
     0 0 100px red, 0 0 200px red;
-    }
+}
 
 img {
     position: absolute;
@@ -129,7 +129,7 @@ button:hover{
 button #img1{
     position: absolute;
     top: 17px;
-    left: 11px;
+    left: 10px;
     height: 25px;
     width: 25px;
 }
@@ -169,115 +169,162 @@ button #img6{
     height: 28px;
     width: 28px;
 }
-#Main #Dash{
+#Main h1{
     position: absolute;
-    top: 103px;
-    left: 260px;
-    width: 1090px;
+    left: 290px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 10px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #023246;
+
+}
+#Main #back{
+    position: absolute;
+    height: 32px;
+    width: 100px;
+    top: 98px;
+    left: 1180px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align:right;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+#Main button:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
+}
+#Main button{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    top: 120px;
+    left: 1200px;
+    border-radius: 10px;
+}
+#Main #container{
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    width: 1070px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.product .rec1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
     border-radius: 15px;
 }
-#Main h2{
-    top: 91px;
-    left: 268px;
-}
-#Main h4{
+.rec1 h2{
     position: absolute;
-    top: 173px;
-    left: 268px;
-    color: aliceblue;
-    font-size: 25px;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
-#Detail #Container1{
-    background-color:#023246 ;
-    width: 115px;
-    height: 164px;
+.rec1 p{
     position: absolute;
-    left: 273px;
-    top: 281px;
-    border-radius: 10px;
+    top: 40px;
+    left: 40px;
+    display: flex;
+
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
 
-#Detail #Container1 h1{
-    color:white;
+.product .rec2{
     position: absolute;
-    top:81px ;
-    left:8px ;
+    top: 20px;
+    left: 380px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
 }
-#Container1 #Profile{
-    width: 98px;
-    height: 99px;
-    left: 0px;
-    top: -3px;
-}
-#Detail #Container2{
-    background-color:#023246 ;
-    width: 115px;
-    height: 164px;
+.rec2 h2{
     position: absolute;
-    left: 644px;
-    top: 281px;
-    border-radius: 10px;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
-#Container2 #TltProduct{
-    width: 115px;
-    height: 117px;
-    left: -9px;
-    top: -9px;
-}
-#Detail #Container2 h1{
-    color:white;
+.rec2 p{
     position: absolute;
-    top:81px ;
-    left:8px ;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
-#Detail #Container3{
-    background-color:#023246 ;
-    width: 115px;
-    height: 164px;
+
+.product .rec3{
     position: absolute;
-    left: 1022px;
-    top: 281px;
-    border-radius: 10px;
+    top: 20px;
+    left: 720px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
 }
-#Container3 #Pending{
-    width: 101px;
-    height: 101px;
-    left: 2px;
-    top: -1px;
-}
-#Detail #Container3 h1{
-    color:white;
+.rec3 h2{
     position: absolute;
-    top:81px ;
-    left:8px ;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
-#Detail #ContainerA{
+.rec3 p{
     position: absolute;
-    top: 282px;
-    width: 200px;
-    left: 388px;
-    height: 164px;
-    background-color:#E8E8E8;
-    border: cyan;
-    border-radius: 10px;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
 }
-#Detail #ContainerB{
-    position: absolute;
-    top: 282px;
-    width: 200px;
-    left: 759px;
-    height: 164px;
-    background-color:#E8E8E8;
-    border: cyan;
-    border-radius: 10px;
-}
-#Detail #ContainerC{
-    position: absolute;
-    top: 282px;
-    width: 200px;
-    left: 1137px;
-    height: 164px;
-    background-color:#E8E8E8;
-    border: cyan;
-    border-radius: 10px;
-}
+

@@ -1,0 +1,332 @@
+body{
+    background-color: #A8A8A8;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aksara Bali Galang", sans-serif;
+}
+ #Container{
+    width:246px;
+    height:695px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+}
+#Headline{
+    width: 1190x;
+    margin-left: 250px;
+    margin-top: -700px;
+    height: 100px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+} 
+h2{
+    position: absolute;
+    top: -5px;
+    left: 262px;
+    color: white;
+    width: 526px;
+    font-size: 36px;
+    font-family: "Aksara Bali Galang", sans-serif;
+    font-weight: 700;
+}
+#Headline input{
+    position: absolute;
+    top: 33px;
+    left: 903px;
+    width: 300px;
+    height: 26px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    box-shadow: 8px 1px 4px #000000 ;
+}
+#Headline input:hover{
+    transition: 0.25s;
+    background-color: white;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
+}
+#Headline #Profile{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 1239px;
+    top: 30px ;
+}
+#Headline #Profile:hover{
+    transition: 0.25s;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+#Headline #Logout{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    left: 1294px;
+    top: 29px ;
+}
+#Headline #Logout:hover{
+    transition: 0.25s;
+    background-color: darkred;
+    border-radius: 23% 15%;
+    border-color: aqua;
+    box-shadow: 0 0 5px red,
+    0 0 25px red, 0 0 50px red,
+    0 0 100px red, 0 0 200px red;
+}
+
+img {
+    position: absolute;
+    width: 161px;
+    height: 145px;
+    left: 33px;
+    top: 13px;
+    
+
+}
+#img1{
+    width: 50;
+    height: 50;
+}
+#Menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 253px;
+}
+button{
+    align-items: flex-end;
+    height: 50px;
+    width: 246px;
+    margin-top: 2px;
+    border-color: transparent;
+    background-color: #023246;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    border-bottom: #000000;
+
+}
+button:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-bottom: #000000;
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 150px cyan;
+
+}
+button #img1{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    height: 25px;
+    width: 25px;
+}
+button #img2{
+    align-items: end;
+    position: absolute;
+    top: 68px;
+    left: 9px;
+    height: 27px;
+    width: 27px;
+}
+button #img3{
+    position: absolute;
+    top: 119px;
+    left: 10px;
+    height: 27px;
+    width: 27px;
+}
+button #img4{
+    position: absolute;
+    top: 170px;
+    left: 9px;
+    height: 26px;
+    width: 26px;
+}
+button #img5{
+    position: absolute;
+    top: 223px;
+    left: 5px;
+    height: 26px;
+    width: 26px;
+}
+button #img6{
+    position: absolute;
+    top: 275px;
+    left: 9px;
+    height: 28px;
+    width: 28px;
+}
+#Main h1{
+    position: absolute;
+    left: 600px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #023246;
+
+}
+#Main #container{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 440px;
+    top: 220px;
+
+    background: #FCFCFC;
+box-shadow: 0px 6px 6px 3px rgba(0, 0, 0, 0.25);
+}
+#Label #name{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 80px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #dob{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 130px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #EI{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 180px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #XX{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 230px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #No{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 280px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#Label #Ad{
+    position: absolute;
+    height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 330px;
+    left: 320px;
+    letter-spacing: 0.1em;
+}
+#input #namein{
+    position: absolute;
+    top:80px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #dobin{
+    position: absolute;
+    top:130px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #EIin{
+    position: absolute;
+    top:180px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #XXin{
+    position: absolute;
+    top:230px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #Noin{
+    position: absolute;
+    top:280px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+#input #Adin{
+    position: absolute;
+    top:330px;
+    left: 520px;
+    width: 220px;
+    height: 22px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px #023246;
+}
+
+#upload{
+    top: 120px;
+    left: 70px;
+    border-radius: 30%;
+    object-fit: cover;
+    background: #dfdfdf;
+}
+#file{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+
+}

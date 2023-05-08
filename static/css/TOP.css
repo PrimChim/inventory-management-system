@@ -1,0 +1,378 @@
+body{
+    background-color: #EBEBEB;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aksara Bali Galang", sans-serif;
+}
+ #Container{
+    width:246px;
+    height:695px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+}
+#Headline{
+    width: 1190x;
+    margin-left: 250px;
+    margin-top: -700px;
+    height: 100px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+} 
+h2{
+    position: absolute;
+    top: -5px;
+    left: 262px;
+    color: white;
+    width: 526px;
+    font-size: 36px;
+    font-family: "Aksara Bali Galang", sans-serif;
+    font-weight: 700;
+}
+#Headline input{
+    position: absolute;
+    top: 33px;
+    left: 903px;
+    width: 300px;
+    height: 26px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    box-shadow: 8px 1px 4px #000000 ;
+}
+#Headline input:hover{
+    transition: 0.25s;
+    background-color: white;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
+}
+#Headline #Profile{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 1239px;
+    top: 30px ;
+}
+#Headline #Profile:hover{
+    transition: 0.25s;
+    background-color: aqua;
+    border-radius: 90px;
+    border-color: aqua;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+#Headline #Logout{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    left: 1294px;
+    top: 29px ;
+}
+#Headline #Logout:hover{
+    transition: 0.25s;
+    background-color: darkred;
+    border-radius: 23% 15%;
+    border-color: aqua;
+    box-shadow: 0 0 5px red,
+    0 0 25px red, 0 0 50px red,
+    0 0 100px red, 0 0 200px red;
+}
+
+img {
+    position: absolute;
+    width: 161px;
+    height: 145px;
+    left: 33px;
+    top: 13px;
+    
+
+}
+#img1{
+    width: 50;
+    height: 50;
+}
+#Menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 253px;
+}
+button{
+    align-items: flex-end;
+    height: 50px;
+    width: 246px;
+    margin-top: 2px;
+    border-color: transparent;
+    background-color: #023246;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    border-bottom: #000000;
+
+}
+button:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-bottom: #000000;
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 150px cyan;
+
+}
+button #img1{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    height: 25px;
+    width: 25px;
+}
+button #img2{
+    align-items: end;
+    position: absolute;
+    top: 68px;
+    left: 9px;
+    height: 27px;
+    width: 27px;
+}
+button #img3{
+    position: absolute;
+    top: 119px;
+    left: 10px;
+    height: 27px;
+    width: 27px;
+}
+button #img4{
+    position: absolute;
+    top: 170px;
+    left: 9px;
+    height: 26px;
+    width: 26px;
+}
+button #img5{
+    position: absolute;
+    top: 223px;
+    left: 5px;
+    height: 26px;
+    width: 26px;
+}
+button #img6{
+    position: absolute;
+    top: 275px;
+    left: 9px;
+    height: 28px;
+    width: 28px;
+}
+#Main h1{
+    position: absolute;
+    left: 290px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 10px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #023246;
+
+}
+#Main #back{
+    position: absolute;
+    height: 32px;
+    width: 100px;
+    top: 98px;
+    left: 1180px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align:right;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+#Main button:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
+}
+#Main button{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    top: 120px;
+    left: 1200px;
+    border-radius: 10px;
+}
+#Main #container{
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    width: 1070px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.product .rec1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
+}
+.rec1 h2{
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec1 p{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec1 #discard{
+    position: absolute;
+    top: 8px;
+    left: 265px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.product .rec2{
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
+}
+.rec2 h2{
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec2 p{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec2 #discard{
+    position: absolute;
+    top: 8px;
+    left: 265px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.product .rec3{
+    position: absolute;
+    top: 20px;
+    left: 720px;
+    width: 300px;
+    height: 100px;
+
+    background: #CCDDE2;
+    border: 1px solid #023246;
+    border-radius: 15px;
+}
+.rec3 h2{
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec3 p{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+}
+.rec3 #discard{
+    position: absolute;
+    top: 8px;
+    left: 265px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#Main #done{
+    position: absolute;
+    height: 32px;
+    width: 100px;
+    top: 660px;
+    left: 1190px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align:center;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+#Main #done:hover{
+    transition: 0.25s;
+    color: #000000;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: aqua;
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px pink, 0 0 50px blueviolet,
+    0 0 100px pink, 0 0 200px blueviolet;
+}

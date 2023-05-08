@@ -11,14 +11,14 @@ body{
     box-shadow: 5px 1px 4px #000000;
 }
 #Headline{
-    width: 100%;
+    width: 1190x;
     margin-left: 250px;
     margin-top: -700px;
     height: 100px;
     background-color: #023246;
     box-shadow: 5px 1px 4px #000000;
 } 
-h2{
+#Headline h2{
     position: absolute;
     top: -5px;
     left: 262px;
@@ -86,8 +86,6 @@ img {
     height: 145px;
     left: 33px;
     top: 13px;
-    
-
 }
 #img1{
     width: 50;
@@ -169,115 +167,63 @@ button #img6{
     height: 28px;
     width: 28px;
 }
-#Main #Dash{
-    position: absolute;
-    top: 103px;
-    left: 260px;
-    width: 1090px;
-    border-radius: 15px;
-}
 #Main h2{
-    top: 91px;
-    left: 268px;
-}
-#Main h4{
+    display: flex;
     position: absolute;
-    top: 173px;
-    left: 268px;
-    color: aliceblue;
-    font-size: 25px;
+    left: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #023246;
 }
-#Detail #Container1{
-    background-color:#023246 ;
-    width: 115px;
-    height: 164px;
+#Main h3{
     position: absolute;
-    left: 273px;
-    top: 281px;
-    border-radius: 10px;
-}
+    top: 25%;
+    left: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 10px;
 
-#Detail #Container1 h1{
-    color:white;
-    position: absolute;
-    top:81px ;
-    left:8px ;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
 }
-#Container1 #Profile{
-    width: 98px;
-    height: 99px;
-    left: 0px;
-    top: -3px;
+.container{
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  width: 830px;
+  height: 200px;
+  background-color: #6092C0;
 }
-#Detail #Container2{
-    background-color:#023246 ;
-    width: 115px;
-    height: 164px;
-    position: absolute;
-    left: 644px;
-    top: 281px;
-    border-radius: 10px;
+#Main #Sales{
+  position: absolute;
+    top: 62%;
+    left: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 10px;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
 }
-#Container2 #TltProduct{
-    width: 115px;
-    height: 117px;
-    left: -9px;
-    top: -9px;
-}
-#Detail #Container2 h1{
-    color:white;
-    position: absolute;
-    top:81px ;
-    left:8px ;
-}
-#Detail #Container3{
-    background-color:#023246 ;
-    width: 115px;
-    height: 164px;
-    position: absolute;
-    left: 1022px;
-    top: 281px;
-    border-radius: 10px;
-}
-#Container3 #Pending{
-    width: 101px;
-    height: 101px;
-    left: 2px;
-    top: -1px;
-}
-#Detail #Container3 h1{
-    color:white;
-    position: absolute;
-    top:81px ;
-    left:8px ;
-}
-#Detail #ContainerA{
-    position: absolute;
-    top: 282px;
-    width: 200px;
-    left: 388px;
-    height: 164px;
-    background-color:#E8E8E8;
-    border: cyan;
-    border-radius: 10px;
-}
-#Detail #ContainerB{
-    position: absolute;
-    top: 282px;
-    width: 200px;
-    left: 759px;
-    height: 164px;
-    background-color:#E8E8E8;
-    border: cyan;
-    border-radius: 10px;
-}
-#Detail #ContainerC{
-    position: absolute;
-    top: 282px;
-    width: 200px;
-    left: 1137px;
-    height: 164px;
-    background-color:#E8E8E8;
-    border: cyan;
-    border-radius: 10px;
+.container2{
+  position: absolute;
+  top: 72%;
+  left: 34%;
+  width: 830px;
+  height: 190px;
+  background-color: #6092C0;
 }
